@@ -1,0 +1,194 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: smooth;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(to bottom, #d5c6da, #cdb9d4, #c6accf, #bea0c9, #b693c3, #ae85bf, #a677bc, #9d69b8, #9057b6, #8245b4, #7132b2, #5e1eb1);
+}
+
+/* CSS GENERAL */ 
+
+
+/* HEADER */ 
+
+
+.header{
+   width: 100vw;
+   height: 130px; 
+   
+}
+
+.headersection{
+    display: flex;
+    flex-direction: row;
+
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #7132b2;
+    margin-left: 28rem;
+}
+
+button{
+   margin-right: 30px;
+   margin-bottom:10px;
+   margin-top: 15px;
+   border: solid 2px rgb(6, 245, 245); 
+   color:rgb(6, 245, 245);
+   display:flex; 
+   align-items: center;
+   justify-content: center; 
+   width: 100px;
+   height: 35px;
+   border-radius: 20px;
+   background-color: transparent; 
+   font-weight: bold;
+   font-size: 12px;
+   font-family: Roboto;
+   font-weight: 300;  
+}
+
+button :hover{
+    cursor: pointer;
+    
+}
+
+.logo{
+    width: 120px;
+    height:120px;
+    margin-top: 1rem;
+    margin-left:2rem;
+}
+
+/* MAIN SECTION */ 
+
+
+.matériels{
+    margin-top: 6rem;
+}
+
+video{
+    width:90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    object-position: center;
+    margin-left: 5rem;
+}
+
+.fiche-tech{
+    width:100vw;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.illu{
+    width:45%;
+    height: 70%;
+}
+
+.imgtech{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+}
+
+p{
+    font-family: Roboto;
+    font-weight:regular;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    margin-top: 2.5rem;
+}
+
+.section-text{
+    width: 30%;
+    height: auto;
+    margin-left: 10rem;
+    font-family:Roboto;
+    font-weight:200;
+    color: white;
+}
+
+h2{
+    font-size:2.2rem;
+    color: white;
+}
+
+main{
+    width: 100vw;
+    height: auto; 
+    
+    z-index: 0;
+    margin: 0%;
+}
+
+.imgsec{
+    /* left:50%;
+    top:50%;
+    position: absolute;
+    */
+    width: 18rem;
+    height: 15rem;
+    
+}
+
+
+/*FOOTERr*/
+
+
+footer{
+    z-index: 9999;
+    height:auto;
+    width: 100vw;
+    background-color:transparent ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-left: 15px;
+    position: relative;
+}
+
+a{
+    color: white;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.logo-footer{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.cotedroit{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    line-height:1.5rem; 
+    bottom: 0px;
+    top: 30px;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.cotegauche p{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
